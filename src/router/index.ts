@@ -1,8 +1,8 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
 const routes: Array<RouteRecordRaw> = [
     {
-        path: '/hello',
-        name: 'hello',
+        path: '/',
+        name: '',
         // redirect:'/hello',
         component: () => import('../index.vue'),
         meta:{
